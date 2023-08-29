@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\BaseController;
 use App\Http\Controllers\PostService;
 use App\Http\Requests\RateRequest;
 use App\Models\Post;
