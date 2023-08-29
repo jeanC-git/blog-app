@@ -16,6 +16,11 @@ class PostController extends BaseController
     {
     }
 
+    public function list()
+    {
+        return $this->success(['posts' => []]);
+    }
+
     public function find(Post $post)
     {
         $post = $this->postService->findOne($post->id);
